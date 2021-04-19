@@ -1,0 +1,7 @@
+#first to make text reader u need a python library called pyttsx3 after copying it paste it in terminal
+# i have already installed it.so will not install it again after all this u have to import it
+import pyttsx3  # to import
+speaker = pyttsx3.init() # to initializing program
+speaker.say(" Hi my name is Python ") #function for speaker saying any string value
+speaker.runAndWait()                    # function to run program
+
